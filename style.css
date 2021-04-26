@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    color: white;
 }
 h1{
     background-image: none image();
@@ -18,4 +19,16 @@ h1{
       height: 5px;
       background-color: black;
       margin: 6px 0;
+  }
+  #fname{
+      background-color: grey;
+      padding: 5px;
+      height: 10px;
+  }
+  #lname{
+      background-color: #F15A29;
+      color: white;
+  }
+  .head{
+      background-image: url(./backgrounds/landing.jpg);
   }
