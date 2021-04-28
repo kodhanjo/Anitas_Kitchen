@@ -6,57 +6,211 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Anitas Kitchen</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Orelega+One#standard-styles">
 
     </head>
     <body>
-    <h1>
+    <div>
         <div class="head">
+            <div class="humburger">
             <div id="dash"></div>
             <div id="dash"></div>
             <div id="dash"></div> 
-            <img src="./assets/logoBig.png" alt="logo">
-            <br> We Provide The Best Food <br> At The <strong>Right Price</strong>
-         </div>
-    </h1>
-            <div> 
-                <form action="/action_page.php">
-                    <input type="text" id="fname" name="fname" value="Happy hour"><br>
-                    <input type="text" id="lname" name="lname" value="Happy time"><br><br>
-                    <div><img src="./foodtop/breakfast.jpg" alt="breakfast"><img src="./foodtop/dinner.jpg" alt="dinner"><img src="./foodtop/lunch.jpg" alt="lunch"></div></div>
-                  </form>   
             </div>
+            <div class="logo-sub-title-wrapper">
 
+            <img src="./assets/logoBig.png" alt="logo">
+            <div class="sub-title">
+            <p>We Provide The Best Food</p>
+            <p>At The <strong>Right Price</strong></p>
+            </div>
+            </div>
+         </div>
+        </div>
+    <main>
+        <div class="flex-container"> 
+            <div class="flex-item flex-column">
 
-        <img src="./assets/fastFood1.jpg" alt="fastFood1"> <img src="./assets/fastFood2.jpg" alt="fastFood2">
-        <h2>Fast Food</h2>
-        <h3>You'll love our delicious food</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda corporis sunt aperiam ea est accusantium iure, voluptatem ipsum repellendus cum minus excepturi perferendis consequuntur iste quod doloremque commodi corrupti nesciunt!</p>
-        <p> VIEW GALLERY</p>
-
-        <h2>Drinks</h2>
+                <div class="flex-column">
+                <div class="frame flex-row">
+                    <div>
+                    <p>Happy Hour</p>
+                    </div>
+                </div>
+                <div class="frame1 flex-row">
+                    <div>
+                    <p>Happy Time</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div style="background-image: url('./foodtop/breakfast.jpg');" class="flex-item">
+                <div style="height: 100%;" class="flex-row">
+                    <div>
+                <p class="text-front">Breakfast</p>
+                    </div>
+                </div>
+            </div>
+            <div style="background-image: url('./foodtop/lunch.jpg');" class="flex-item">
+                <div style="height: 100%;" class="flex-row">
+                    <div>
+                <p class="text-front">Lunch</p>
+                    </div>
+                </div>
+            </div>
+            <div style="background-image: url('./foodtop/dinner.jpg');" class="flex-item">
+                <div style="height: 100%;" class="flex-row">
+                    <div>
+                <p class="text-front">Dinner</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </main>
+                    
+   <div class="fast-food">
+       <div class="display-flex">
+        <div class="display-flex-box">
+            <div>
+                <img src="./assets/fastFood1.jpg" alt="fastFood1">
+            </div>
+            <div>
+                <img src="./assets/fastFood2.jpg" alt="fastFood2">
+            </div>
+        </div>
+        <div class="paragraph">
+            <h2>Fast Food</h2>
+            <h3>You'll love our delicious food</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Assumenda corporis sunt aperiam ea est accusantium iure, 
+                voluptatem ipsum repellendus cum minus excepturi 
+                perferendis consequuntur iste quod doloremque 
+                commodi corrupti nesciunt!</p>
+            <p class="p"> VIEW GALLERY</p>
+        </div>
+    </div>
+    <div class="display-flex">
+        <div class="paragraph par">
+            <h2>Drinks</h2>
         <h3>We also produce delicious drinks</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda corporis sunt aperiam ea est accusantium iure, voluptatem ipsum repellendus cum minus excepturi perferendis consequuntur iste quod doloremque commodi corrupti nesciunt!</p>
-        <img src="./assets/drink1.jpg" alt="drink 1"> <img src="./assets/drink2.jpg" alt="">
-        <p> VIEW GALLERY</p>
+        <p class="p"> VIEW GALLERY</p>
+        </div>
+        <div class="display-flex-box img">
+            <div>
+                <img src="./assets/drink1.jpg" alt="drink 1">
+            </div>
+            <div>
+                <img src="./assets/drink2.jpg" alt="">
+            </div>
+        </div>
+        
+    </div>
+   </div>
 
-        <P>
-            <div>Fast foods</div>
-            <div>Drinks</div>
-            <div>Chicken</div>
-            <div>Rice</div>
-            <p> <img src="./fastfoods/chickenBurger.jpg" alt=" chickenBurger"> <img src="./fastfoods/beefBurger.jpg" alt="beefBurger"> <img src="./fastfoods/chickenPizza.jpg" alt="chickenPizza"></p>
-
-        </P>
-        <p id=" footer">
+           
+</div>
+<div id="slides">
+    <div class="bar">
+        <div class="bar-items">
+            <p>fastfood</p>
+        </div>
+        <div class="bar-items">
+            <p>Drinks</p>
+        </div>
+        <div class="bar-items">
+            <p>Chicken</p>
+        </div>
+        <div class="bar-items">
+            <p>Rice</p>
+        </div>
+    </div>
+    <div class="image-items">
+        <div class="arrow">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        </div>
+        <div class="food-item">
+            <div class="food-image">
+                <img src="./fastfoods/chickenBurger.jpg" alt=" Chicken-Burger">
+            </div>
+            <p>
+                Chicken Burger
+            </p>
+        </div>
+        <div class="food-item">
+            <div class="food-image">
+                <img src="./fastfoods/beefBurger.jpg" alt="Beef-Burger">
+            </div>
+            <p>
+                Beef Burger
+            </p>
+        </div>
+        <div class="food-item">
+            <div class="food-image">
+                <img src="./fastfoods/chickenPizza.jpg" alt="Chicken-Pizza">
+            </div>
+            <p>
+                Chicken Pizza
+            </p>
+        </div>
+        <div class="arrow">
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+</div>
+     
+    <div class="clients">
+        <div class="bord-box">
+            <div class="happy-customer">
+                <h3>Happy Clients</h3> 
+                <h4> George Richard</h4>
+                <p>Great food! menu is owesome there food are not only great but also in the right price. I'll highly reecomend them</p>
+                 <div class="cust-image">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <img src="./customers/p1.png">
+                        <img src="./customers/p2.png">
+                        <img src="./customers/p3.png">
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                 </div>
+                
+            </div>
+            <div class="neighbor">
+                <h3> About Menu</h3>
+                <p>We are menu allittle team of 7 members
+                    ut wisi enim add minim veniam quis nos trudecer
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+     <div>
+         <div class ="footer1">
+             <div>
+                <div class="button">
+                    <form action="">
+                        <p id="foot2">Get our daily food items delivered to your email</p>
+                    </form>
+                    <div class="box2">
+                        <div class="email-box">
+                            <input type="Email" name="" value="" placeholder="Your Email">
+                         <div class="subscribe-box">
+                            <input type="subscribe" name="" value="" placeholder="subscribe">
+                         </div>
+                    </div>
+                
+                        
+                    </div>
+             </div>
+         </div>
+         <div class="footerbackground">
         <div class="footer">
             <div class="menu" >MENU</div>
+            <br>
             <div>Thats what we are</div>
+            <br>
             <div> <img src="./footer /facebook.png" alt="facebook"> <img src="./footer /twitter.png" alt="twitter"> <img src="./footer /pinterest.png" alt=""></div>
+            <br>
             <div>2015 Meru Resturant</div>
-          </div>
-        </p>
-
-        
-
+        </div>
     </body>
     </html>

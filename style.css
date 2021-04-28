@@ -1,34 +1,317 @@
-h1{
-    text-align: center;
-    color: white;
+body{
+    margin: 0;
+    padding: 0;
 }
-h1{
-    background-image: none image();
+.head .humburger{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.head .logo-sub-title-wrapper{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0;
+}
+.head .logo-sub-title-wrapper .sub-title{
+    padding-top: 10px;
+    /* font-weight: 600; */
+    color: #fff;
+    font-size: 2rem;
+}
+.head .logo-sub-title-wrapper .sub-title p{
+    margin: 1px;
+}
+
+/* Sub Images */
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    /* justify-content: center;
+    align-items: center; */
+}
+.flex-container .flex-item{
+
+    width: 350px;
+    height: 210px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-item .flex-column{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.flex-item .flex-container div{
+    height: 105px;
+    width: 100%;
+}
+main {
+  display: flex;
+}
+.frame {
+  background-color: #f15a29;
+  text-align: center;
+  border: honeydew;
+  height: 50%;
+  /* height: 100px;
+  width: 300px; */
+  margin: 0px;
+  color: whitesmoke;
+  /* position: relative; */
+}
+.overlay-image{
+    position: relative;
+}
+.text-front{
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: #FFF;
+}
+.frame1 {
+  background-color: rgb(223, 217, 217);
+  text-align: center;
+  height: 50%;
+  /* height: 100px;
+  width: 300px; */
+  margin: 0px;
+  justify-content: center;
+  text-align-last: center;
+  position: relative;
 }
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #F15A29;
-    color: white;
-    text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f15a29;
+  color: white;
+  text-align: center;
+}
+#dash {
+  width: 40px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+.body-cont {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+.flex1 {
+  margin: 0px;
+  box-shadow: 2px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-style: solid black;
+  box-shadow: gray;
+}
+.head {
+  background-image: url(./backgrounds/landing.jpg);
+}
+.navigator {
+  position: absolute;
+  padding: 3px;
+  float: left;
+  margin-left: 2px;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#slides {
+  padding: 30px 40px;
+  background-image: url(./backgrounds/foodsBg.jpg);
+  /* display: flex; */
+}
+#slides .container {
+  padding: 10pxs;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+#slides .food-item {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+table, td {
+  border: 1px solid rgb(233, 222, 222);
+  border-collapse: collapse;
+}
+ td {
+  padding: 5px;
+  text-align: center;
+  color: #f15a29;
+  justify-content: space-between;
+ }
+ .prev{
+   color: #f15a29;
+ }
+ .next{
+   color: #f15a29;
+ }
+ .container{
+   border: 5px;
+ }
+ flexx-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+ }
+  .footerbackground{
+    /* display: flex; */
+    background-size: cover;
+    /* overflow: hidden; */
+    background-image: url(./backgrounds/subscribe.jpg);
   }
-  #dash{
-      width: 40px;
-      height: 5px;
-      background-color: black;
-      margin: 6px 0;
+  .email-box{
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+   
   }
-  #fname{
-      background-color: grey;
-      padding: 5px;
-      height: 10px;
+  .box2{
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
   }
-  #lname{
-      background-color: #F15A29;
-      color: white;
+  .subscribe-box{
+    height: 40px;
+    display: flex;
+    justify-content: centre;
+    padding: 10px;
   }
-  .head{
-      background-image: url(./backgrounds/landing.jpg);
+  .display-flex{
+    display: flex;
+    margin-bottom: 25px;
+
   }
+  .fast-food{
+    padding: 50px;
+
+  }
+  .display-flex-box{
+    padding: 20px;
+    box-shadow: 0px 0px 13px 5px rgba(196,196,196,1);
+  }
+  .paragraph{
+    padding: 0px 50px;
+  }
+  .paragraph .p{
+    padding: 5px;
+    border: 1px solid #f15a29;
+    width: 25%;
+  }
+  .img{
+    display: flex;
+  }
+  .par{
+    text-align: right;
+  }
+  .image-items{
+    background: white;
+    margin: 0px 10%;
+    display: flex;
+    padding: 25px;
+  }
+ .arrow {
+   margin: 100px 0px;
+ }
+ .bar{
+   display: flex;
+   background: white;
+   margin: 0px 10%;
+   display: flex;
+   text-align: center;
+   font-size: 18px;
+
+  
+
+ }
+.bar-items{
+  width: 25%;
+  padding: 5px;
+  color: #0c0c0c;
+  border: 1px solid grey;
+  text-align: center;
+  background: rgb(161, 157, 157);
+}
+.bar-items:hover{
+  background: white;
+  border: none;
+  color: #f15a29;
+}
+.clients{
+  padding: 80px 120px;
+}
+.happy-customers{
+  padding: 20px;
+  text-align: center;
+}
+.cust-image{
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  margin: 5px 150px;
+}
+.bord-box{
+  display: flex;
+  box-shadow: 0px 0px 13px 5px rgba(196,196,196,1);
+  padding: 20px;
+  text-align: center;
+}
+.neighbor{
+  padding: 5px;
+  border-left: 1px solid rgb(199, 191, 191);
+}
+.cust-image img{
+  padding: 0px 10px;
+}
+.footer1{
+  height: 300px;
+  padding: 5px;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./backgrounds/subscribe.jpg);
+}
+.get{
+  color: white;
+}
+#foot2{
+  color:white;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+::placeholder{
+  background-color: #f15a29;
+  color: #fff;
+  width: 100px;
+}
+.happy-customer >h3{
+  color: #f15a29;
+}
+.neighbor >h3{
+  color: #f15a29;
+}
